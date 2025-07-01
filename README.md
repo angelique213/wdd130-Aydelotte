@@ -1,2 +1,2 @@
-# wdd130-Aydelotte
+# wdd130-henderson
 Client website for WDD130 Class
