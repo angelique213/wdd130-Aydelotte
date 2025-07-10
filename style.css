@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Cormorant Garamond', serif;
-  background: url('images/background2.jpg') no-repeat center center fixed;
+  background: url('background2.jpg') no-repeat center center fixed;
   background-size: cover;
   color: #A2D3E9;
   display: flex;
@@ -23,8 +23,10 @@ body {
   border-radius: 30px;
   overflow: hidden;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 .about .intro-line {
@@ -65,14 +67,14 @@ body {
 }
 
 .header-section {
-  background: url('images/background1.png') no-repeat center center;
+  background: url('background1.png') no-repeat center center;
   background-size: cover;
   height: 400px;
   text-align: center;
 }
 
 .main-logo {
-  width: 600px;
+  width: 700px;
   max-width: 100%;
   margin: 2em auto;
 }
@@ -132,19 +134,25 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem;
+  padding: 1rem;
   gap: 1rem;
 }
 
 .footer-name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   font-family: 'Cinzel Decorative', serif;
   color: #A2D3E9;
   font-size: 1.5rem;
+  margin-left: 20px;
 }
 
 footer nav {
   display: flex;
   gap: 2rem;
+  margin-right: 30px;
+
 }
 
 footer nav a {
