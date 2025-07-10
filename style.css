@@ -10,53 +10,52 @@ body {
   background-size: cover;
   color: #A2D3E9;
   display: flex;
-  justify-content: center; 
-  align-items: center; 
+  justify-content: center;
+  align-items: center;
   min-height: 100vh;
+  padding: 2rem;
+}
+
+.main-wrapper {
+  width: 100%;
+  max-width: 1200px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .about .intro-line {
-  font-size: 5rem;
+  font-size: 2.5rem;
   padding: 10px;
   font-weight: bold;
   text-align: center;
   margin-bottom: 1.5rem;
   color: #A2D3E9;
-  max-width: 100%;
+  max-width: 90%;
   margin-left: auto;
   margin-right: auto;
 }
 
-
-.main-wrapper {
-  width: 2500px;
-  height: 3000px;
-  margin-top: 500px; 
-  margin-bottom: 500px;
-  border-radius: 60px;
-  overflow: hidden;
-  max-width: 100%;
-}
-
-
 .top-nav {
   background-color: #0B2340;
-  height: 150px;
-
+  padding: 1rem 0;
 }
 
 .top-nav ul {
   list-style: none;
   display: flex;
   justify-content: center;
-  gap: 5rem;
-  padding: 2rem 2rem;
+  gap: 2rem;
+  padding: 1rem;
 }
 
 .top-nav a {
   font-family: 'Cinzel Decorative', serif;
   color: #A2D3E9;
-  font-size: 4rem;
+  font-size: 1.5rem;
   text-decoration: none;
 }
 
@@ -65,92 +64,57 @@ body {
   text-decoration: underline;
 }
 
-
 .header-section {
   background: url('images/background1.png') no-repeat center center;
   background-size: cover;
-  height: 700px;
+  height: 400px;
   text-align: center;
 }
-.main-logo {
-  width: 1500px;
-  max-width: 100%;
-  margin: 2em 0;
-}
 
+.main-logo {
+  width: 600px;
+  max-width: 100%;
+  margin: 2em auto;
+}
 
 .content-box {
-  flex: 1;
-  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
 }
 
+.about, .my-story {
+  padding: 1.5rem;
+}
 
 .about {
   background-color: #0D3C52;
-  padding: 1.5rem;
 }
-
-.about h2 {
-  font-family: 'Cinzel Decorative', serif;
-  font-size: 4rem;
-  color: #A2D3E9;
-  margin: 0 auto 1rem auto;
-  padding: 0 1rem;
-  text-align: left;
-  letter-spacing: 1.5px;
-  max-width: 90%;
-}
-
-.about p {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 2.5rem;
-  line-height: 1.6;
-  color: #A2D3E9;
-  text-align: justify;
-  margin: 0 auto;
-  padding: 0 1rem;
-  max-width: 90%;
-}
-
-
 
 .my-story {
-  background-color: #0B2340; 
-  padding: 1.5rem;
+  background-color: #0B2340;
   position: relative;
   z-index: 1;
-  overflow: hidden;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
 }
 
-.my-story h2 {
+.about h2, .my-story h2 {
   font-family: 'Cinzel Decorative', serif;
-  font-size: 4em;
+  font-size: 2rem;
   color: #A2D3E9;
-  margin: 0 auto 1rem auto;
-  padding: 0 1rem;
-  text-align: left;
-  letter-spacing: 1.5px;
-  max-width: 90%;
+  margin-bottom: 1rem;
 }
 
-.my-story p {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 2.6rem;
+.about p, .my-story p {
+  font-size: 1.25rem;
   line-height: 1.6;
-  color: #A2D3E9;
   text-align: justify;
-  margin: 0 auto;
-  padding: 0 1rem;
-  max-width: 90%;
+  color: #A2D3E9;
 }
 
 .character {
   float: right;
-  width: 700px;
-  height: 900px;
-  margin: 1rem 1.5rem 1rem 0;
+  width: 300px;
+  height: auto;
+  margin: 1rem;
   object-fit: cover;
   opacity: 1;
 }
@@ -163,40 +127,30 @@ body {
 
 footer {
   background-color: #0D3C52;
-  border-bottom-left-radius: 60px;
-  border-bottom-right-radius: 60px;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 3rem 2rem;
-  gap: 2rem;
-  height: 250px;
+  padding: 2rem;
+  gap: 1rem;
 }
 
 .footer-name {
   font-family: 'Cinzel Decorative', serif;
   color: #A2D3E9;
-  display: flex;
-  flex-direction: column;
-  font-size: 4rem;
-  margin-left: 60px;
-  margin-top: 0;
+  font-size: 1.5rem;
 }
 
 footer nav {
   display: flex;
-  gap: 3rem;
-  margin: 0; 
-  margin-right: 100px;
+  gap: 2rem;
 }
 
 footer nav a {
   color: white;
   text-decoration: none;
-  font-size: 3rem;
-  margin: 0 auto;
+  font-size: 1.25rem;
 }
 
 footer nav a:hover {
@@ -204,13 +158,14 @@ footer nav a:hover {
   color: #5182b5;
 }
 
+
 @media (max-width: 850px) {
   body {
-    padding: 10px;
+    padding: 1rem;
   }
 
   .main-wrapper {
-    width: 98%;
+    width: 100%;
     border-radius: 15px;
   }
 
@@ -220,35 +175,25 @@ footer nav a:hover {
   }
 
   .character {
-    position: static;
+    float: none;
     display: block;
-    margin: 1rem auto 0 auto;
+    margin: 1rem auto;
     opacity: 0.3;
-    height: auto;
+    width: 80%;
   }
 
   footer {
     flex-direction: column;
     align-items: center;
-    height: auto; 
     padding: 1rem;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
   }
 
   .footer-name {
-    font-size: 2rem;
-    margin-left: 0;
     text-align: center;
   }
 
   footer nav {
     flex-direction: column;
     align-items: center;
-    gap: 0.5rem;
-    margin-right: 0;
   }
-
-  footer nav a {
-    font-size: 1.2rem;
-  }
+}
