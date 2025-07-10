@@ -103,6 +103,8 @@ body {
   font-size: 2rem;
   color: #A2D3E9;
   margin-bottom: 1rem;
+  margin-left: 20px;
+  
 }
 
 .about p, .my-story p {
@@ -110,6 +112,8 @@ body {
   line-height: 1.6;
   text-align: justify;
   color: #A2D3E9;
+  margin-left: 20px;
+  margin-right: 20px
 }
 
 .character {
