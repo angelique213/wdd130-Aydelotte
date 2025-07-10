@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Cormorant Garamond', serif;
-  background: url('background2.jpg') no-repeat center center fixed;
+  background: url('images/background2.jpg') no-repeat center center fixed;
   background-size: cover;
   color: #A2D3E9;
   display: flex;
@@ -67,7 +67,7 @@ body {
 }
 
 .header-section {
-  background: url('background1.png') no-repeat center center;
+  background: url('images/background1.png') no-repeat center center;
   background-size: cover;
   height: 400px;
   text-align: center;
