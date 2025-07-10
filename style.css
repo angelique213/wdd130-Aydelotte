@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Cormorant Garamond', serif;
-  background: url('images/background2.jpg') no-repeat center center fixed;
+  background: url('background2.jpg') no-repeat center center fixed;
   background-size: cover;
   color: #A2D3E9;
   display: flex;
@@ -22,7 +22,7 @@ body {
   text-align: center;
   margin-bottom: 1.5rem;
   color: #A2D3E9;
-  max-width: 90%;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -30,7 +30,7 @@ body {
 
 .main-wrapper {
   width: 2500px;
-  height: 4000px;
+  height: 3000px;
   margin-top: 500px; 
   margin-bottom: 500px;
   border-radius: 60px;
@@ -67,7 +67,7 @@ body {
 
 
 .header-section {
-  background: url('images/background1.png') no-repeat center center;
+  background: url('background1.png') no-repeat center center;
   background-size: cover;
   height: 700px;
   text-align: center;
@@ -81,8 +81,8 @@ body {
 
 
 .content-box {
-  display: flex;
-  flex-direction: column;
+  flex: 1;
+  overflow-y: auto;
 }
 
 
@@ -104,7 +104,7 @@ body {
 
 .about p {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   line-height: 1.6;
   color: #A2D3E9;
   text-align: justify;
@@ -138,7 +138,7 @@ body {
 
 .my-story p {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 3.5rem;
+  font-size: 2.6rem;
   line-height: 1.6;
   color: #A2D3E9;
   text-align: justify;
@@ -149,8 +149,8 @@ body {
 
 .character {
   float: right;
-  width: 850px;
-  height: 1100px;
+  width: 700px;
+  height: 900px;
   margin: 1rem 1.5rem 1rem 0;
   object-fit: cover;
   opacity: 1;
@@ -173,7 +173,7 @@ footer {
   align-items: center;
   padding: 3rem 2rem;
   gap: 2rem;
-  height: 300px;
+  height: 250px;
 }
 
 .footer-name {
