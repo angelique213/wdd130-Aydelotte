@@ -23,8 +23,15 @@ body {
   border-radius: 30px;
   overflow: hidden;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+<<<<<<< HEAD
   margin-top: 100px;
   margin-bottom: 100px;
+=======
+  margin-top: 200px;
+  margin-bottom: 200px;
+  margin-left: 200px;
+  margin-right: 200px;
+>>>>>>> 2e17eaefa3410bad9aceca8f7275711641e9b885
 }
 
 .about .intro-line {
@@ -72,7 +79,11 @@ body {
 }
 
 .main-logo {
+<<<<<<< HEAD
   width: 600px;
+=======
+  width: 700px;
+>>>>>>> 2e17eaefa3410bad9aceca8f7275711641e9b885
   max-width: 100%;
   margin: 2em auto;
 }
@@ -101,6 +112,11 @@ body {
   font-size: 2rem;
   color: #A2D3E9;
   margin-bottom: 1rem;
+<<<<<<< HEAD
+=======
+  margin-left: 20px;
+  
+>>>>>>> 2e17eaefa3410bad9aceca8f7275711641e9b885
 }
 
 .about p, .my-story p {
@@ -108,6 +124,11 @@ body {
   line-height: 1.6;
   text-align: justify;
   color: #A2D3E9;
+<<<<<<< HEAD
+=======
+  margin-left: 20px;
+  margin-right: 20px
+>>>>>>> 2e17eaefa3410bad9aceca8f7275711641e9b885
 }
 
 .character {
@@ -132,19 +153,38 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+<<<<<<< HEAD
   padding: 2rem;
+=======
+  padding: 1rem;
+>>>>>>> 2e17eaefa3410bad9aceca8f7275711641e9b885
   gap: 1rem;
 }
 
 .footer-name {
+<<<<<<< HEAD
   font-family: 'Cinzel Decorative', serif;
   color: #A2D3E9;
   font-size: 1.5rem;
+=======
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: 'Cinzel Decorative', serif;
+  color: #A2D3E9;
+  font-size: 1.5rem;
+  margin-left: 20px;
+>>>>>>> 2e17eaefa3410bad9aceca8f7275711641e9b885
 }
 
 footer nav {
   display: flex;
   gap: 2rem;
+<<<<<<< HEAD
+=======
+  margin-right: 30px;
+
+>>>>>>> 2e17eaefa3410bad9aceca8f7275711641e9b885
 }
 
 footer nav a {
