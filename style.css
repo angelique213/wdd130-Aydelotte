@@ -23,10 +23,7 @@ body {
   border-radius: 30px;
   overflow: hidden;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  margin-top: 200px;
-  margin-bottom: 200px;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin: 200px;
 }
 
 .about .intro-line {
@@ -84,7 +81,8 @@ body {
   flex-direction: column;
 }
 
-.about, .my-story {
+.about,
+.my-story {
   padding: 1.5rem;
 }
 
@@ -98,22 +96,23 @@ body {
   z-index: 1;
 }
 
-.about h2, .my-story h2 {
+.about h2,
+.my-story h2 {
   font-family: 'Cinzel Decorative', serif;
   font-size: 2rem;
   color: #A2D3E9;
   margin-bottom: 1rem;
   margin-left: 20px;
-  
 }
 
-.about p, .my-story p {
+.about p,
+.my-story p {
   font-size: 1.25rem;
   line-height: 1.6;
   text-align: justify;
   color: #A2D3E9;
   margin-left: 20px;
-  margin-right: 20px
+  margin-right: 20px;
 }
 
 .character {
@@ -156,7 +155,6 @@ footer nav {
   display: flex;
   gap: 2rem;
   margin-right: 30px;
-
 }
 
 footer nav a {
@@ -169,7 +167,6 @@ footer nav a:hover {
   text-decoration: underline;
   color: #5182b5;
 }
-
 
 /* --- Custom Table Styles for Database Page --- */
 table {
@@ -222,6 +219,7 @@ table, th, td {
   .main-wrapper {
     width: 100%;
     border-radius: 15px;
+    margin: 2rem;
   }
 
   .top-nav ul {
@@ -245,11 +243,14 @@ table, th, td {
 
   .footer-name {
     text-align: center;
+    margin-left: 0;
+    align-items: center;
   }
 
   footer nav {
     flex-direction: column;
     align-items: center;
+    margin-right: 0;
   }
 
   table, thead, tbody, th, td, tr {
